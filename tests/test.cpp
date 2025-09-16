@@ -2,7 +2,7 @@
 #include "../include/function.h"
 
 TEST(test_01, basic_test_set) {
-    ASSERT_TRUE(answer(3, 2)==3);
+    ASSERT_TRUE(answer(3, 2)==5);
 }
 
 TEST(test_02, basic_test_set) {
@@ -14,7 +14,7 @@ TEST(test_03, basic_test_set) {
 }
 
 TEST(test_04, basic_test_set) {
-    ASSERT_TRUE(answer(10, 10)==18);
+    ASSERT_TRUE(answer(10, 10)==99);
 }
 
 TEST(test_05, basic_test_set) {

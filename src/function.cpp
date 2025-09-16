@@ -2,5 +2,5 @@
 
 
 int answer(int n, int m) {
-    return (n - 1) + (m - 1);
+    return n * m - 1;
 }

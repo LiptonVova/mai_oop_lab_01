@@ -24,7 +24,7 @@ target_link_libraries(${CMAKE_PROJECT_NAME}_out PRIVATE ${CMAKE_PROJECT_NAME}_li
 
 enable_testing()
 
-add_executable(tests tests/test_01.cpp)
+add_executable(tests tests/test.cpp)
 target_link_libraries(tests ${CMAKE_PROJECT_NAME}_lib gtest_main)
 
 add_test(NAME MyProjectTests COMMAND tests)
